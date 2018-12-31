@@ -9,7 +9,7 @@ then in some client do the following
 
 ```html
 
-<img src="http://localhost:4000/qrcode.png?data=https://www.google.com" />
+<img src="http://localhost:5678/qrcode.png?data=https://www.google.com" />
 
 ```
 
