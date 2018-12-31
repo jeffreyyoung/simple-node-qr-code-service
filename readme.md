@@ -16,3 +16,5 @@ then in some client do the following
 
 example:
 
+[https://simple-node-qr-code-service-uapvrefdqt.now.sh/qrcode.png?data=https://www.google.com]
+
