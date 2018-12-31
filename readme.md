@@ -1,4 +1,4 @@
-## A MicroService for generating QR codes on the fly
+## A simple micro service for generating QR codes on the fly
 
 
 ### getting started
