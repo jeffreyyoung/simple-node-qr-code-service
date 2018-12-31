@@ -7,8 +7,10 @@ var QRCode = require("qrcode");
 
 app.get("/qrcode.png", (req, res) => {
     const data = decodeURI(req.query.data);
-    
-    QRCode.toDataURL(data, function(err, base64EncodedPng) {
+    QRCode.toDataURL(data, {
+        width: req.query.width || 200,
+        errorCorrectionLevel: 'H'
+    }, function(err, base64EncodedPng) {
         if (err) {
             res.err(err);
         }
